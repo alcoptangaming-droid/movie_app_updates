@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "update_url": "https://github.com/your-username/movie_app_updates/releases/download/v1.0.1/movie_app.apk",
+  "changelog": "الإصدار الأول - إصلاحات وتحسينات في الأداء",
+  "build_number": "1",
+  "mandatory": false
+}
