@@ -167,18 +167,7 @@
     "episodes": 20,
     "rating": 4.3
   },
-  {
-    "title": "كامل العدد 3",
-    "year": "2024",
-    "videoUrl": "https://example.com/series15.mp4",
-    "imageAsset": "assets/movies/_315x420_af58f42120e7abb35da00f97f9f1569da9526d275e663fd38988c0c09cfa6bf8.jpg",
-    "description": "الجزء الثالث من المسلسل الكوميدي",
-    "category": "كوميديا",
-    "duration": "45 دقيقة",
-    "type": "series",
-    "episodes": 25,
-    "rating": 4.4
-  },
+
   {
     "title": "منتهي الصلاحية",
     "year": "2024",
@@ -251,18 +240,7 @@
     "episodes": 30,
     "rating": 4.4
   },
-  {
-    "title": "جودر 2",
-    "year": "2024",
-    "videoUrl": "https://example.com/series22.mp4",
-    "imageAsset": "assets/movies/_315x420_af58f42120e7abb35da00f97f9f1569da9526d275e663fd38988c0c09cfa6bf8.jpg",
-    "description": "الجزء الثاني من المسلسل",
-    "category": "دراما",
-    "duration": "45 دقيقة",
-    "type": "series",
-    "episodes": 25,
-    "rating": 4.6
-  },
+
   {
     "title": "شهاده معملة اطفال",
     "year": "2024",
