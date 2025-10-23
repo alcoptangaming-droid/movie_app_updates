@@ -324,5 +324,17 @@
     "type": "series",
     "episodes": 22,
     "rating": 4.7
+  },
+  {
+    "title": "إش إش",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_002bbaee660d46fced677f8ba7b10648e9371d5a739d16e211bc8571503c5b9f.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
   }
 ]
