@@ -1,190 +1,91 @@
 [
   {
     "id": 1001,
-    "title": "Roh Geddo",
-    "name": "Roh Geddo",
-    "year": "2025",
-    "description": "Yasmine, a failed cosmetic surgeon who botched a procedure on a famous artist costing him his career. Forced to sell her mansion to cover the settlement, she was shocked to discover the contract was missing. While searching for it inside the mansion, she encounters events beyond imagination...",
-    "category": "Comedy",
-    "duration": "1 Season", 
-    "type": "series",
-    "imageAsset": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg",
-    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/188776.m3u8",
-    "overview": "Yasmine, a failed cosmetic surgeon...",
-    "posterPath": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-    "backdropPath": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-    "releaseDate": "2025",
-    "voteAverage": 7.0,
-    "rating": 7.0,
-    "episodes": [ 
-      {
-        "episodeNumber": 1,
-        "title": "Episode 1", 
-        "duration": "48 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/416010.m3u8" 
-      },
-      {
-        "episodeNumber": 2,
-        "title": "Episode 2",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/712181.m3u8" 
-      },
-      {
-        "episodeNumber": 3,
-        "title": "Episode 3",
-        "duration": "39 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/919440.m3u8" 
-      },
-      {
-        "episodeNumber": 4,
-        "title": "Episode 4",
-        "duration": "40 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg",
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/43409.m3u8" 
-      },
-      {
-        "episodeNumber": 5,
-        "title": "Episode 5",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/44312.m3u8" 
-      },
-       {
-        "episodeNumber": 6,
-        "title": "Episode 6",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/558434.m3u8" 
-      },
-       {
-        "episodeNumber": 7,
-        "title": "Episode 7",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/647802.m3u8" 
-      },
-       {
-        "episodeNumber": 8,
-        "title": "Episode 8",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/57280.m3u8" 
-      },
-       {
-        "episodeNumber": 9,
-        "title": "Episode 9",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/451590.m3u8" 
-      },
-       {
-        "episodeNumber": 10,
-        "title": "Episode 10",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/2769.m3u8" 
-      },
-       {
-        "episodeNumber": 11,
-        "title": "Episode 11",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/465795.m3u8" 
-      },
-       {
-        "episodeNumber": 12,
-        "title": "Episode 12",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/308281.m3u8" 
-      },
-       {
-        "episodeNumber": 13,
-        "title": "Episode 135",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/378876.m3u8" 
-      },
-       {
-        "episodeNumber": 14,
-        "title": "Episode 14",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/250032.m3u8" 
-      },
-       {
-        "episodeNumber": 15,
-        "title": "Episode 15",
-        "duration": "36 min",
-        "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg"", 
-        "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/200870.m3u8" 
-      }
-    ] 
-  },
-  {
-    "id": 1002,
-    "title": "Al Halangy",
-    "name": "Al Halangy",
-    "year": "2025",
-    "description": "A description for Al Halangy.",
-    "category": "Drama",
+    "title": "كوفيد 25",
+    "name": "كوفيد 25",
+    "year": "2021",
+    "description": "تدور الأحداث في عام 2025، حيث ينتشر فيروس خطير يدفع المصابين لمهاجمة وقتل البشر، ويحاول الطبيب ياسين كشف المؤامرة الكبرى التي تسببت في انتشار المرض.",
+    "category": "Sci-Fi, Thriller",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "",
-    "imageUrl": "URL_TO_AL_HALANGY_IMAGE", 
-    "videoUrl": "",
-    "overview": "A description for Al Halangy.",
-    "posterPath": "URL_TO_AL_HALANGY_POSTER", 
-    "backdropPath": "URL_TO_AL_HALANGY_BACKDROP",
-    "releaseDate": "2025",
+    "imageAsset": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", // يجب تحويله لـ URL
+    "imageUrl": "", // اترك هذا فارغًا طالما تستخدم imageAsset محلياً
+    "videoUrl": "", // رابط فيديو ترويجي (اختياري)
+    "overview": "تدور الأحداث في عام 2025...",
+    "posterPath": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", // يجب تحويله لـ URL
+    "backdropPath": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", // يجب تحويله لـ URL
+    "releaseDate": "2021",
     "voteAverage": 7.0,
     "rating": 7.0,
     "episodes": [
-       {
-        "episodeNumber": 1,
-        "title": "Episode 1",
-        "duration": "43 min",
-        "thumbnailUrl": "URL_TO_AL_HALANGY_EP1_THUMBNAIL",
-        "videoUrl": "URL_TO_AL_HALANGY_EP1_VIDEO"
-      },
-      {
-        "episodeNumber": 2,
-        "title": "Episode 2",
-        "duration": "41 min",
-        "thumbnailUrl": "URL_TO_AL_HALANGY_EP2_THUMBNAIL", 
-        "videoUrl": "URL_TO_AL_HALANGY_EP2_VIDEO" 
-      },
-      {
-        "episodeNumber": 3,
-        "title": "Episode 3",
-        "duration": "40 min",
-        "thumbnailUrl": "URL_TO_AL_HALANGY_EP3_THUMBNAIL", 
-        "videoUrl": "URL_TO_AL_HALANGY_EP3_VIDEO" 
-      },
-       {
-        "episodeNumber": 4,
-        "title": "Episode 4",
-        "duration": "41 min",
-        "thumbnailUrl": "URL_TO_AL_HALANGY_EP4_THUMBNAIL", 
-        "videoUrl": "URL_TO_AL_HALANGY_EP4_VIDEO" 
-      },
-      {
-        "episodeNumber": 5,
-        "title": "Episode 5",
-        "duration": "39 min",
-        "thumbnailUrl": "URL_TO_AL_HALANGY_EP5_THUMBNAIL",
-        "videoUrl": "URL_TO_AL_HALANGY_EP5_VIDEO" 
-      },
-       {
-        "episodeNumber": 6,
-        "title": "Episode 6",
-        "duration": "...", 
-        "thumbnailUrl": "URL_TO_AL_HALANGY_EP6_THUMBNAIL",
-        "videoUrl": "URL_TO_AL_HALANGY_EP6_VIDEO" 
-      
-      }
+      { "episodeNumber": 1, "title": "Episode 1", "duration": "48 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/416010.m3u8" },
+      { "episodeNumber": 2, "title": "Episode 2", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/712181.m3u8" },
+      { "episodeNumber": 3, "title": "Episode 3", "duration": "39 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/919440.m3u8" },
+      { "episodeNumber": 4, "title": "Episode 4", "duration": "40 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/43409.m3u8"  },
+      { "episodeNumber": 5, "title": "Episode 5", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/44312.m3u8"  },
+      { "episodeNumber": 6, "title": "Episode 6", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/558434.m3u8" },
+      { "episodeNumber": 7, "title": "Episode 7", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/647802.m3u8" },
+      { "episodeNumber": 8, "title": "Episode 8", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/57280.m3u8"  },
+      { "episodeNumber": 9, "title": "Episode 9", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/451590.m3u8" },
+      { "episodeNumber": 10, "title": "Episode 10", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/2769.m3u8"   },
+      { "episodeNumber": 11, "title": "Episode 11", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/465795.m3u8" },
+      { "episodeNumber": 12, "title": "Episode 12", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/308281.m3u8" },
+      { "episodeNumber": 13, "title": "Episode 13", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/378876.m3u8" },
+      { "episodeNumber": 14, "title": "Episode 14", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/250032.m3u8" },
+      { "episodeNumber": 15, "title": "Episode 15", "duration": "36 min", "thumbnailUrl": "assets/Image_movies/_640x_cff755ca5251faee8c071459ad5eed0e0196a371cf1f90b9c76b8495e3fc644b.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/200870.m3u8" }
     ]
- 
+  },
+  {
+    "id": 1002,
+    "title": "الصياد",
+    "name": "الصياد",
+    "year": "2014",
+    "description": "تدور الأحداث حول شاب يعمل في إحدى الأجهزة الأمنية، وبعد أن يقع له حادث يتسبب في فقدان بصره، يتم استبعاده عن العمل في الجهاز، ولكن في وقت لاحق يقع الجهاز في حيرة أمام إحدى العمليات، ولا يكون أمامهم سوى الاستعانة به لكشف الغموض.",
+    "category": "Thriller, Drama",
+    "duration": "1 Season",
+    "type": "series",
+    // --- استخدام مسار الصورة المعطى ---
+    "imageAsset": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", // يجب تحويله لـ URL
+    "imageUrl": "", // اتركه فارغًا
+    "videoUrl": "",
+    "overview": "تدور الأحداث حول شاب يعمل في إحدى الأجهزة الأمنية...",
+    "posterPath": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", // يجب تحويله لـ URL
+    "backdropPath": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", // يجب تحويله لـ URL (أو صورة خلفية مختلفة)
+    // --- نهاية استخدام مسار الصورة المعطى ---
+    "releaseDate": "2014",
+    "voteAverage": 8.0,
+    "rating": 8.0,
+    "episodes": [ // --- إضافة 30 حلقة ---
+      {"episodeNumber": 1, "title": "Episode 1", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/891371.m3u8"},
+      {"episodeNumber": 2, "title": "Episode 2", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/932379.m3u8"},
+      {"episodeNumber": 3, "title": "Episode 3", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/597430.m3u8"},
+      {"episodeNumber": 4, "title": "Episode 4", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/27476.m3u8"},
+      {"episodeNumber": 5, "title": "Episode 5", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/396395.m3u8"},
+      {"episodeNumber": 6, "title": "Episode 6", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/628509.m3u8"},
+      {"episodeNumber": 7, "title": "Episode 7", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/95695.m3u8"},
+      {"episodeNumber": 8, "title": "Episode 8", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/795452.m3u8"},
+      {"episodeNumber": 9, "title": "Episode 9", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/228816.m3u8"},
+      {"episodeNumber": 10, "title": "Episode 10", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/16473.m3u8"},
+      {"episodeNumber": 11, "title": "Episode 11", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/603293.m3u8"},
+      {"episodeNumber": 12, "title": "Episode 12", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/947846.m3u8"},
+      {"episodeNumber": 13, "title": "Episode 13", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/153193.m3u8"},
+      {"episodeNumber": 14, "title": "Episode 14", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/713196.m3u8"},
+      {"episodeNumber": 15, "title": "Episode 15", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/174081.m3u8"},
+      {"episodeNumber": 16, "title": "Episode 16", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/221285.m3u8"},
+      {"episodeNumber": 17, "title": "Episode 17", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/554398.m3u8"},
+      {"episodeNumber": 18, "title": "Episode 18", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/730943.m3u8"},
+      {"episodeNumber": 19, "title": "Episode 19", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/133539.m3u8"},
+      {"episodeNumber": 20, "title": "Episode 20", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/904849.m3u8"},
+      {"episodeNumber": 21, "title": "Episode 21", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/240635.m3u8"},
+      {"episodeNumber": 22, "title": "Episode 22", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/763813.m3u8"},
+      {"episodeNumber": 23, "title": "Episode 23", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/981971.m3u8"},
+      {"episodeNumber": 24, "title": "Episode 24", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/359175.m3u8"},
+      {"episodeNumber": 25, "title": "Episode 25", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/359175.m3u8"},
+      {"episodeNumber": 26, "title": "Episode 26", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/544413.m3u8"},
+      {"episodeNumber": 27, "title": "Episode 27", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/253592.m3u8"},
+      {"episodeNumber": 28, "title": "Episode 28", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/462369.m3u8"},
+      {"episodeNumber": 29, "title": "Episode 29", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/743322.m3u8"},
+      {"episodeNumber": 30, "title": "Episode 30", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/417979.m3u8"}
+    ]
+  }
+]
