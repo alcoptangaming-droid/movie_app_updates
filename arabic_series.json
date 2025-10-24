@@ -17,11 +17,11 @@
     "releaseDate": "2025",
     "voteAverage": 7.0,
     "rating": 7.0,
-    "episodes": [ // <-- قائمة الحلقات تبدأ هنا
+    "episodes": [ 
       {
         "episodeNumber": 1,
-        "title": "Episode 1", // عنوان الحلقة فقط
-        "duration": "48 min", // مدة الحلقة
+        "title": "Episode 1", 
+        "duration": "48 min",
         "thumbnailUrl": "URL_TO_ROH_GEDDO_EP1_THUMBNAIL", 
         "videoUrl": "URL_TO_ROH_GEDDO_EP1_VIDEO" 
       },
