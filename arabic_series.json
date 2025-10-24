@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1001,
+    "title": "Roh Geddo",
+    "name": "Roh Geddo",
+    "year": "2025",
+    "description": "Yasmine, a failed cosmetic surgeon who botched a procedure on a famous artist costing him his career. Forced to sell her mansion to cover the settlement, she was shocked to discover the contract was missing. While searching for it inside the mansion, she encounters events beyond imagination...",
+    "category": "Comedy",
+    "duration": "1 Season", // مدة المسلسل ككل
+    "type": "series",
+    "imageAsset": "",
+    "imageUrl": "URL_TO_ROH_GEDDO_IMAGE", // <-- رابط صورة المسلسل
+    "videoUrl": "", // رابط فيديو ترويجي للمسلسل (اختياري)
+    "overview": "Yasmine, a failed cosmetic surgeon...",
+    "posterPath": "URL_TO_ROH_GEDDO_POSTER", // <-- رابط بوستر المسلسل
+    "backdropPath": "URL_TO_ROH_GEDDO_BACKDROP", // <-- رابط خلفية المسلسل (اختياري)
+    "releaseDate": "2025",
+    "voteAverage": 7.0,
+    "rating": 7.0,
+    "episodes": [ // <-- قائمة الحلقات تبدأ هنا
+      {
+        "episodeNumber": 1,
+        "title": "Episode 1", // عنوان الحلقة فقط
+        "duration": "48 min", // مدة الحلقة
+        "thumbnailUrl": "URL_TO_ROH_GEDDO_EP1_THUMBNAIL", // <-- رابط صورة الحلقة (أو استخدم imageUrl للمسلسل)
+        "videoUrl": "URL_TO_ROH_GEDDO_EP1_VIDEO" // <-- رابط فيديو الحلقة
+      },
+      {
+        "episodeNumber": 2,
+        "title": "Episode 2",
+        "duration": "36 min",
+        "thumbnailUrl": "URL_TO_ROH_GEDDO_EP2_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_ROH_GEDDO_EP2_VIDEO" // <-- رابط فيديو الحلقة
+      },
+      {
+        "episodeNumber": 3,
+        "title": "Episode 3",
+        "duration": "39 min",
+        "thumbnailUrl": "URL_TO_ROH_GEDDO_EP3_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_ROH_GEDDO_EP3_VIDEO" // <-- رابط فيديو الحلقة
+      },
+      {
+        "episodeNumber": 4,
+        "title": "Episode 4",
+        "duration": "40 min",
+        "thumbnailUrl": "URL_TO_ROH_GEDDO_EP4_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_ROH_GEDDO_EP4_VIDEO" // <-- رابط فيديو الحلقة
+      },
+      {
+        "episodeNumber": 5,
+        "title": "Episode 5",
+        "duration": "36 min",
+        "thumbnailUrl": "URL_TO_ROH_GEDDO_EP5_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_ROH_GEDDO_EP5_VIDEO" // <-- رابط فيديو الحلقة
+      }
+      // ... يمكنك إضافة باقي الحلقات
+    ] // <-- قائمة الحلقات تنتهي هنا
+  },
+  {
+    "id": 1002,
+    "title": "Al Halangy",
+    "name": "Al Halangy",
+    "year": "2025",
+    "description": "A description for Al Halangy.",
+    "category": "Drama",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "",
+    "imageUrl": "URL_TO_AL_HALANGY_IMAGE", // <-- رابط صورة المسلسل
+    "videoUrl": "",
+    "overview": "A description for Al Halangy.",
+    "posterPath": "URL_TO_AL_HALANGY_POSTER", // <-- رابط بوستر المسلسل
+    "backdropPath": "URL_TO_AL_HALANGY_BACKDROP", // <-- (اختياري)
+    "releaseDate": "2025",
+    "voteAverage": 7.0,
+    "rating": 7.0,
+    "episodes": [
+       {
+        "episodeNumber": 1,
+        "title": "Episode 1",
+        "duration": "43 min",
+        "thumbnailUrl": "URL_TO_AL_HALANGY_EP1_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_AL_HALANGY_EP1_VIDEO" // <-- رابط فيديو الحلقة
+      },
+      {
+        "episodeNumber": 2,
+        "title": "Episode 2",
+        "duration": "41 min",
+        "thumbnailUrl": "URL_TO_AL_HALANGY_EP2_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_AL_HALANGY_EP2_VIDEO" // <-- رابط فيديو الحلقة
+      },
+      {
+        "episodeNumber": 3,
+        "title": "Episode 3",
+        "duration": "40 min",
+        "thumbnailUrl": "URL_TO_AL_HALANGY_EP3_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_AL_HALANGY_EP3_VIDEO" // <-- رابط فيديو الحلقة
+      },
+       {
+        "episodeNumber": 4,
+        "title": "Episode 4",
+        "duration": "41 min",
+        "thumbnailUrl": "URL_TO_AL_HALANGY_EP4_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_AL_HALANGY_EP4_VIDEO" // <-- رابط فيديو الحلقة
+      },
+      {
+        "episodeNumber": 5,
+        "title": "Episode 5",
+        "duration": "39 min",
+        "thumbnailUrl": "URL_TO_AL_HALANGY_EP5_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_AL_HALANGY_EP5_VIDEO" // <-- رابط فيديو الحلقة
+      },
+       {
+        "episodeNumber": 6,
+        "title": "Episode 6",
+        "duration": "...", // تأكد من وضع مدة صحيحة أو معالجتها في الكود
+        "thumbnailUrl": "URL_TO_AL_HALANGY_EP6_THUMBNAIL", // <-- رابط صورة الحلقة
+        "videoUrl": "URL_TO_AL_HALANGY_EP6_VIDEO" // <-- رابط فيديو الحلقة
+      }
+      // ... يمكنك إضافة باقي الحلقات
+    ]
+  },
+  {
+    "id": 1003,
+    "title": "Yahdoth Fi Masr",
+    "name": "Yahdoth Fi Masr",
+    // ... باقي بيانات المسلسل ...
+    "imageUrl": "URL_TO_YAHDOTH_FI_MASR_IMAGE",
+    "posterPath": "URL_TO_YAHDOTH_FI_MASR_POSTER",
+    "episodes": [] // <-- أضف قائمة حلقات هذا المسلسل هنا إذا أردت
+  },
+  {
+    "id": 1004,
+    "title": "Mystery Box",
+    "name": "Mystery Box",
+    // ... باقي بيانات المسلسل ...
+    "imageUrl": "URL_TO_MYSTERY_BOX_IMAGE",
+    "posterPath": "URL_TO_MYSTERY_BOX_POSTER",
+    "episodes": [] // <-- أضف قائمة حلقات هذا المسلسل هنا إذا أردت
+  },
+  {
+    "id": 1005,
+    "title": "Sabaya Al Khair",
+    "name": "Sabaya Al Khair",
+    // ... باقي بيانات المسلسل ...
+    "imageUrl": "URL_TO_SABAYA_AL_KHAIR_IMAGE",
+    "posterPath": "URL_TO_SABAYA_AL_KHAIR_POSTER",
+    "episodes": [] // <-- أضف قائمة حلقات هذا المسلسل هنا إذا أردت
+  }
+]
