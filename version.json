@@ -1,9 +1,9 @@
 {
-  "version": "1.0.1",
-  "update_url": "https://github.com/alcoptangaming-droid/movie_app_updates/releases/download/v1.0.1/app-release.apk",
-  "changelog": "الإصدار الأول - إصلاحات وتحسينات في الأداء",
-  "build_number": "2",
+  "version": "1.0.2", <--- 💡 يجب تغيير هذا الرقم
+  "update_url": "https://github.com/alcoptangaming-droid/movie_app_updates/releases/download/v1.0.2/app-release.apk",
+  "changelog": "إصلاحات وتحسينات جديدة.",
+  "build_number": "3",
   "mandatory": false,
-  "release_date": "2024-01-20",
-  "update_message": "تم إضافة مميزات جديدة وتحسين الأداء"
+  "release_date": "2025-10-25",
+  "update_message": "🎉 تحديث هام: تم إضافة مميزات جديدة وتحسين الأداء وثبات التطبيق."
 }
