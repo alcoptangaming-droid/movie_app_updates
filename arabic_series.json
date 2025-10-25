@@ -55,7 +55,7 @@
     "releaseDate": "2014",
     "voteAverage": 8.0,
     "rating": 8.0,
-    "episodes": [ // --- إضافة 30 حلقة ---
+    "episodes": [ 
       {"episodeNumber": 1, "title": "Episode 1", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/891371.m3u8"},
       {"episodeNumber": 2, "title": "Episode 2", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/932379.m3u8"},
       {"episodeNumber": 3, "title": "Episode 3", "duration": "45 min", "thumbnailUrl": "assets/Image_movies/_315x420_bd925a473097f4de34dd995bb4a6b886aa92c090d3fcb7dba09962dd55202e39.jpg", "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/597430.m3u8"},
