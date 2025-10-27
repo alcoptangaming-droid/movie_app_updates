@@ -314,6 +314,657 @@
       {"episodeNumber": 30, "title": "Episode 30", "duration": "52 min", 
         "thumbnailUrl": "assets/Image_ramdan/_640x_ae28fb61c58b8b1fe67ea88c1addf71f81d2fb0e5a89aa8b04168d64c0fde3c8.jpg", 
         "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/204801.m3u8"}
+   ]
+  },
+  {
+    "id": 1006,
+    "title": "المداح ج5",
+    "name": "المداح ج5",
+    "year": "N/A",
+    "description": "مسلسل درامي مصري.",
+    "category": "Drama, Horror",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg",
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي مصري.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg",
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg",
+    "releaseDate": "N/A",
+    "voteAverage": 7.0,
+    "rating": 7.0,
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/799420.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/956119.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/268837.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/470726.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/951595.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/451486.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/117797.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/904536.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/758940.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/396093.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/892341.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/299145.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/61247.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/365803.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/222687.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/3628.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/156420.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/488695.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/275621.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/489020.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/428878.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/911187.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/984091.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/153914.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/372085.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/47336.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/195159.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/576762.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/738106.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/667633.m3u8" }
+    ]
+  },
+  {
+    "id": 1007,
+    "title": "فهد البطل",
+    "name": "فهد البطل",
+    "year": "N/A",
+    "description": "مسلسل درامي اجتماعي.",
+    "category": "Drama",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي اجتماعي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/742115.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/705151.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/192767.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/446518.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/607348.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/621803.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/818367.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/105884.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/15975.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/829261.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/902348.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/586832.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/559625.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/733995.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/945467.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/874899.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/125773.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/827724.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/325785.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/46729.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/399656.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/866091.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/383681.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/372743.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/20021.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/275179.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/29916.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/180547.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/687297.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/706332.m3u8" }
+    ]
+  },
+  {
+    "id": 1008,
+    "title": "سيد الناس",
+    "name": "سيد الناس",
+    "year": "N/A",
+    "description": "مسلسل درامي اجتماعي.",
+    "category": "Drama",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي اجتماعي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/448650.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/685232.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/335150.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/185871.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/645691.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/215432.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/60836.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/280377.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/748292.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/541345.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/907773.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/281418.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/228513.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/428995.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/362066.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/481147.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/239487.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/72131.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/699847.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/834878.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/18352.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/769299.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/994986.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/374358.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/600946.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/172586.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/583528.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/814928.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/513038.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/445514.m3u8" }
+    ]
+  },
+  {
+    "id": 1009,
+    "title": "حكيم باشا",
+    "name": "حكيم باشا",
+    "year": "N/A",
+    "description": "مسلسل درامي.",
+    "category": "Drama",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/300675.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/866681.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/657761.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/827348.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/323816.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/879261.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/6753.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/513276.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/29188.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/541065.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/99629.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/126615.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/122753.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/371249.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/150872.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/572573.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/426330.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/573839.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/125380.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/82796.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/107275.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/397964.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/417171.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/231415.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/485329.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/639184.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/412684.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/300366.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/453120.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/41863.m3u8" }
+    ]
+  },
+  {
+    "id": 1010,
+    "title": "العتاولة ج2",
+    "name": "العتاولة ج2",
+    "year": "N/A", // Assume future or placeholder
+    "description": "استكمال أحداث الجزء الأول من مسلسل العتاولة.", // Placeholder
+    "category": "Drama, Action",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "استكمال أحداث الجزء الأول من مسلسل العتاولة.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/291217.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/390864.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/791654.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/767223.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/267488.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/340959.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/504834.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/945479.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/962.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/450475.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/417648.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/190323.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/81507.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/776668.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/477370.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/168672.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/886725.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/276108.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/50709.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/328298.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/948309.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/737330.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/453191.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/227988.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/463769.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/576826.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/889530.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/434158.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/481195.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/410457.m3u8" }
+    ]
+  },
+  {
+    "id": 1011,
+    "title": "وتقابل حبيب",
+    "name": "وتقابل حبيب",
+    "year": "N/A",
+    "description": "مسلسل درامي.",
+    "category": "Drama",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/273262.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/133405.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/757943.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/491384.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/925670.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/890439.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/614214.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/211590.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/120967.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/161927.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/106705.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/275927.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/186456.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/914673.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/946220.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/564251.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/483533.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/264215.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/890695.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/704311.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/10689.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/217785.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/771407.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/269630.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/740674.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/351743.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/916039.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/766223.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/470445.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/992907.m3u8" }
+    ]
+  },
+  {
+    "id": 1012,
+    "title": "شهادة معاملة أطفال",
+    "name": "شهادة معاملة أطفال",
+    "year": "N/A",
+    "description": "مسلسل درامي اجتماعي.",
+    "category": "Drama, Social",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي اجتماعي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/8692.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/910388.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/487273.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/881099.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/731461.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/225062.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/501999.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/78119.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/79075.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/390603.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/786745.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/481438.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/164752.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/810293.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/673178.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/319248.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/779235.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/164550.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/481389.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/963448.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/594861.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/690357.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/889218.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/747341.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/575834.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/345315.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/763397.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/388455.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/400325.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/929512.m3u8" }
+    ]
+  },
+  {
+    "id": 1013,
+    "title": "إش إش",
+    "name": "إش إش",
+    "year": "N/A",
+    "description": "مسلسل كوميدي.",
+    "category": "Comedy",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل كوميدي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/544070.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/433511.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/325540.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/579622.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/720538.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/170713.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/833566.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/101392.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/237210.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/540595.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/786044.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/153740.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/607142.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/273876.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/753042.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/930596.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/497168.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/677879.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/370321.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/387460.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/476424.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/346490.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/964255.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/864534.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/526904.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/625453.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/463650.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/414792.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/170556.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/756594.m3u8" }
+    ]
+  },
+  {
+    "id": 1014,
+    "title": "الحلانجي",
+    "name": "الحلانجي",
+    "year": "N/A",
+    "description": "مسلسل درامي.",
+    "category": "Drama",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/371507.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/294774.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/398369.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/525292.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/486667.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/589466.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/466699.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/585394.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/836007.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/680458.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/155883.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/318679.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/225429.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/201607.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/741611.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/175179.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/619091.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/437572.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/601745.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/667094.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/932463.m3u8" },
+      { "episodeNumber": 22, "seasonNumber": 1, "title": "S01E22", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/630607.m3u8" },
+      { "episodeNumber": 23, "seasonNumber": 1, "title": "S01E23", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/888809.m3u8" },
+      { "episodeNumber": 24, "seasonNumber": 1, "title": "S01E24", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/56462.m3u8" },
+      { "episodeNumber": 25, "seasonNumber": 1, "title": "S01E25", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/53623.m3u8" },
+      { "episodeNumber": 26, "seasonNumber": 1, "title": "S01E26", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/394180.m3u8" },
+      { "episodeNumber": 27, "seasonNumber": 1, "title": "S01E27", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/887561.m3u8" },
+      { "episodeNumber": 28, "seasonNumber": 1, "title": "S01E28", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/122997.m3u8" },
+      { "episodeNumber": 29, "seasonNumber": 1, "title": "S01E29", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/261525.m3u8" },
+      { "episodeNumber": 30, "seasonNumber": 1, "title": "S01E30", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/795522.m3u8" }
+    ]
+  },
+  {
+    
+    "id": 1015,
+    "title": "أشغال شقة جداً", // Extracted, removed extra words
+    "name": "أشغال شقة جداً",
+    "year": "N/A",
+    "description": "مسلسل كوميدي.", // Placeholder, likely comedy
+    "category": "Comedy", // Placeholder
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل كوميدي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/640057.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/154001.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/513084.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/93074.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/406626.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/54348.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/292075.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/296577.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/513753.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/730777.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/258263.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/305543.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/366867.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/387962.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/566512.m3u8" }
+      // Assuming only 15 episodes based on the file
+    ]
+  },
+  {
+    "id": 1016,
+    "title": "النص",
+    "name": "النص",
+    "year": "N/A",
+    "description": "مسلسل درامي.",
+    "category": "Drama",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/577965.m3u8" },
+       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/610319.m3u8" },
+       { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/208429.m3u8" },
+       { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/660820.m3u8" },
+       { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/53944.m3u8" },
+       { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/910603.m3u8" },
+       { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/939686.m3u8" },
+       { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/187327.m3u8" },
+       { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/444605.m3u8" },
+       { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/710682.m3u8" },
+       { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/656052.m3u8" },
+       { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/755850.m3u8" },
+       { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/996648.m3u8" },
+       { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/164637.m3u8" },
+       { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/471840.m3u8" }
+       // Assuming 15 episodes
+    ]
+  },
+  {
+    "id": 1017,
+    "title": "الكابتن",
+    "name": "الكابتن",
+    "year": "N/A",
+    "description": "مسلسل.",
+    "category": "N/A",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/746306.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/193545.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/392619.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/986990.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/219431.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/174906.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/316623.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/364187.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/60868.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/609627.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/454085.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/80060.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/678010.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/915853.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/131275.m3u8" }
+      // Assuming 15 episodes
+    ]
+  },
+  {
+    "id": 1018,
+    "title": "معاوية",
+    "name": "معاوية",
+    "year": "N/A", // Historically significant, but year N/A for series
+    "description": "مسلسل تاريخي.", // Placeholder
+    "category": "History, Drama", // Placeholder
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل تاريخي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/50466.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/490064.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/183899.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/44526.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/263018.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/992270.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/75413.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/808390.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/770522.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/818283.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/351224.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/582341.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/944216.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/154813.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/389368.m3u8" },
+      { "episodeNumber": 16, "seasonNumber": 1, "title": "S01E16", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/929774.m3u8" },
+      { "episodeNumber": 17, "seasonNumber": 1, "title": "S01E17", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/100832.m3u8" },
+      { "episodeNumber": 18, "seasonNumber": 1, "title": "S01E18", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/449855.m3u8" },
+      { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/117013.m3u8" },
+      { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/718716.m3u8" },
+      { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/304562.m3u8" }
+      // Assuming 21 episodes
+    ]
+  },
+  {
+    "id": 1019,
+    "title": "بنات همام",
+    "name": "بنات همام",
+    "year": "N/A",
+    "description": "مسلسل درامي اجتماعي.",
+    "category": "Drama, Social",
+    "duration": "1 Season",
+    "type": "series",
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageUrl": "",
+    "videoUrl": "",
+    "overview": "مسلسل درامي اجتماعي.",
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "releaseDate": "N/A",
+    "voteAverage": 7.0, // Placeholder
+    "rating": 7.0, // Placeholder
+    "episodes": [
+      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/265169.m3u8" },
+      { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/398894.m3u8" },
+      { "episodeNumber": 3, "seasonNumber": 1, "title": "S01E03", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/712860.m3u8" },
+      { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/61469.m3u8" },
+      { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/518547.m3u8" },
+      { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/13477.m3u8" },
+      { "episodeNumber": 7, "seasonNumber": 1, "title": "S01E07", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/485106.m3u8" },
+      { "episodeNumber": 8, "seasonNumber": 1, "title": "S01E08", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/875243.m3u8" },
+      { "episodeNumber": 9, "seasonNumber": 1, "title": "S01E09", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/418401.m3u8" },
+      { "episodeNumber": 10, "seasonNumber": 1, "title": "S01E10", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/476870.m3u8" },
+      { "episodeNumber": 11, "seasonNumber": 1, "title": "S01E11", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/26931.m3u8" },
+      { "episodeNumber": 12, "seasonNumber": 1, "title": "S01E12", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/550147.m3u8" },
+      { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/785061.m3u8" },
+      { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/971828.m3u8" },
+      { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/259573.m3u8" }
+      // Assuming 15 episodes
     ]
   }
 ]
