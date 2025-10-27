@@ -376,15 +376,15 @@
     "category": "Drama",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg",
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي اجتماعي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/742115.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/705151.m3u8" },
@@ -427,15 +427,15 @@
     "category": "Drama",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي اجتماعي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0,
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/448650.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/685232.m3u8" },
@@ -478,15 +478,15 @@
     "category": "Drama",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0,
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/300675.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/866681.m3u8" },
@@ -524,20 +524,20 @@
     "id": 1010,
     "title": "العتاولة ج2",
     "name": "العتاولة ج2",
-    "year": "N/A", // Assume future or placeholder
-    "description": "استكمال أحداث الجزء الأول من مسلسل العتاولة.", // Placeholder
+    "year": "N/A", 
+    "description": "استكمال أحداث الجزء الأول من مسلسل العتاولة.",
     "category": "Drama, Action",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "استكمال أحداث الجزء الأول من مسلسل العتاولة.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/291217.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/390864.m3u8" },
@@ -580,15 +580,15 @@
     "category": "Drama",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", r
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/273262.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/133405.m3u8" },
@@ -631,15 +631,15 @@
     "category": "Drama, Social",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي اجتماعي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg",
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0,
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/8692.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/910388.m3u8" },
@@ -682,15 +682,15 @@
     "category": "Comedy",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل كوميدي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/544070.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/433511.m3u8" },
@@ -733,15 +733,15 @@
     "category": "Drama",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg",
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/371507.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/294774.m3u8" },
@@ -778,22 +778,22 @@
   {
     
     "id": 1015,
-    "title": "أشغال شقة جداً", // Extracted, removed extra words
+    "title": "أشغال شقة جداً", 
     "name": "أشغال شقة جداً",
     "year": "N/A",
-    "description": "مسلسل كوميدي.", // Placeholder, likely comedy
-    "category": "Comedy", // Placeholder
+    "description": "مسلسل كوميدي.", 
+    "category": "Comedy", 
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل كوميدي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0,
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/640057.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/154001.m3u8" },
@@ -810,7 +810,7 @@
       { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/366867.m3u8" },
       { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/387962.m3u8" },
       { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/566512.m3u8" }
-      // Assuming only 15 episodes based on the file
+
     ]
   },
   {
@@ -822,15 +822,15 @@
     "category": "Drama",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg",
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0,
+    "rating": 7.0,
     "episodes": [
        { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/577965.m3u8" },
        { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/610319.m3u8" },
@@ -847,7 +847,7 @@
        { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/996648.m3u8" },
        { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/164637.m3u8" },
        { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/471840.m3u8" }
-       // Assuming 15 episodes
+     
     ]
   },
   {
@@ -859,15 +859,15 @@
     "category": "N/A",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0,
+    "rating": 7.0,
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/746306.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/193545.m3u8" },
@@ -884,27 +884,27 @@
       { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/678010.m3u8" },
       { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/915853.m3u8" },
       { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/131275.m3u8" }
-      // Assuming 15 episodes
+
     ]
   },
   {
     "id": 1018,
     "title": "معاوية",
     "name": "معاوية",
-    "year": "N/A", // Historically significant, but year N/A for series
-    "description": "مسلسل تاريخي.", // Placeholder
-    "category": "History, Drama", // Placeholder
+    "year": "N/A",
+    "description": "مسلسل تاريخي.",
+    "category": "History, Drama", 
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل تاريخي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", 
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0, 
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/50466.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/490064.m3u8" },
@@ -927,7 +927,7 @@
       { "episodeNumber": 19, "seasonNumber": 1, "title": "S01E19", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/117013.m3u8" },
       { "episodeNumber": 20, "seasonNumber": 1, "title": "S01E20", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/718716.m3u8" },
       { "episodeNumber": 21, "seasonNumber": 1, "title": "S01E21", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/304562.m3u8" }
-      // Assuming 21 episodes
+
     ]
   },
   {
@@ -939,15 +939,15 @@
     "category": "Drama, Social",
     "duration": "1 Season",
     "type": "series",
-    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "imageAsset": "assets/Image_ramdan/placeholder_series.jpg", 
     "imageUrl": "",
     "videoUrl": "",
     "overview": "مسلسل درامي اجتماعي.",
-    "posterPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
-    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", // Placeholder
+    "posterPath": "assets/Image_ramdan/placeholder_series.jpg",
+    "backdropPath": "assets/Image_ramdan/placeholder_series.jpg", 
     "releaseDate": "N/A",
-    "voteAverage": 7.0, // Placeholder
-    "rating": 7.0, // Placeholder
+    "voteAverage": 7.0, 
+    "rating": 7.0,
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/265169.m3u8" },
       { "episodeNumber": 2, "seasonNumber": 1, "title": "S01E02", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/398894.m3u8" },
@@ -964,7 +964,7 @@
       { "episodeNumber": 13, "seasonNumber": 1, "title": "S01E13", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/785061.m3u8" },
       { "episodeNumber": 14, "seasonNumber": 1, "title": "S01E14", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/971828.m3u8" },
       { "episodeNumber": 15, "seasonNumber": 1, "title": "S01E15", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/259573.m3u8" }
-      // Assuming 15 episodes
+
     ]
   }
 ]
