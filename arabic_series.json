@@ -1160,7 +1160,7 @@
     "rating": 7.0,
     "episodes": [
       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/670541.m3u8" }
-      // Only one episode listed
+
     ]
   },
   {
@@ -1657,7 +1657,6 @@
       { "episodeNumber": 4, "seasonNumber": 1, "title": "S01E04", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_elmahatta_hd2025.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/564282.m3u8" },
       { "episodeNumber": 5, "seasonNumber": 1, "title": "S01E05", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_elmahatta_hd2025.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/494318.m3u8" },
       { "episodeNumber": 6, "seasonNumber": 1, "title": "S01E06", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_elmahatta_hd2025.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/474015.m3u8" }
-      // Assuming 6 episodes
     ]
   },
   {
