@@ -1159,7 +1159,7 @@
     "voteAverage": 7.0,
     "rating": 7.0,
     "episodes": [
-      { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_series.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/670541.m3u8" }
+       { "episodeNumber": 1, "seasonNumber": 1, "title": "S01E01", "duration": "N/A", "thumbnailUrl": "assets/Image_ramdan/placeholder_hayat_aw_mot.jpg", "videoUrl": "https://es.egys.gs/series/Alcoptan/Alcoptan/670541.m3u88" },
 
     ]
   },
