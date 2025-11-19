@@ -1,330 +1,364 @@
-import 'dart:async';
-import 'dart:convert'; 
-import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:movie_app/video_player/video_player_screen.dart'; // تأكد من المسار
-import 'package:movie_app/api/apiservice.dart';           // تأكد من المسار
-import 'package:movie_app/model/movie_model.dart';         // تأكد من المسار
-import 'package:package_info_plus/package_info_plus.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-// ignore: unused_import
-import 'package:url_launcher/url_launcher.dart'; // قد تحتاجه لنافذة التحديث
+[
+  {
+    "title": "لبنك",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/392472.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_5eff403b738daeff83db4837c762a0597fbe48f102730c2414ab89d1d9726a59.jpg",
+    "description": "مسلسل اجتماعي يشابك بين الحلم والواقع",
+    "category": "دراما",
+    "duration": "45 دقيقة",
+    "type": "series",
+    "episodes": 30,
+    "rating": 4.5
+  },
+  {
+    "title": "واد بنت شليب",
+    "year": "2023",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/736437.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_6e0e322b1a646995ae99c9cee3de14a655a3d0980af92478a27f8ae2fee603b8.jpg",
+    "description": "قصة عائلية تتعامل مع تحديات الحياة",
+    "category": "كوميديا",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 25,
+    "rating": 4.2
+  },
+  {
+    "title": "لبن الثدي",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/42180.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_14ecd5faf9fd6961e1061183a2d0105b1baebab7087ad89359a82b7f2b4daa2c.jpg",
+    "description": "دراما عائلية تلامس قضايا مجتمعية",
+    "category": "دراما",
+    "duration": "50 دقيقة",
+    "type": "series",
+    "episodes": 20,
+    "rating": 4.3
+  },
+  {
+    "title": "المرسم",
+    "year": "2023",
+    "videoUrl": "https://es.egys.gs/series/abdoyasser112/01032783778/474924.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_28dd6f7cf2034240126d3a758aeea4e62f156b22e437523d6e46985ff92fb413.jpg",
+    "description": "قصة فنان شاب يسعى لتحقيق أحلامه",
+    "category": "دراما",
+    "duration": "45 دقيقة",
+    "type": "series",
+    "episodes": 15,
+    "rating": 4.1
+  },
+  {
+    "title": "أمريكي",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/646601.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_93ad7e783d4b90217c4fd09aed7f560956f0f9fcbf16e5e1efbc35a049952dc7.jpg",
+    "description": "شاب يعود لوطنه بعد سنوات في الخارج",
+    "category": "دراما",
+    "duration": "55 دقيقة",
+    "type": "series",
+    "episodes": 30,
+    "rating": 4.6
+  },
+  {
+    "title": "سلمى",
+    "year": "2023",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_01936b4f17e7b8670199ae69f2223ea9a290102ea2635192babff737faf105f6.jpg",
+    "description": "قصة امرأة قوية تواجه تحديات الحياة",
+    "category": "دراما",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 20,
+    "rating": 4.4
+  },
+  {
+    "title": "وتز حساس",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/809218.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_78915a04657c0c86b153b60703c0c42bea8e88710cb0006c80fd9036dadb7a31.jpg",
+    "description": "دراما بوليسية مشوقة",
+    "category": "تشويق",
+    "duration": "50 دقيقة",
+    "type": "series",
+    "episodes": 25,
+    "rating": 4.7
+  },
+  {
+    "title": "ما تراه ليس كما يبدو",
+    "year": "2023",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/344070.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_af58f42120e7abb35da00f97f9f1569da9526d275e663fd38988c0c09cfa6bf8.jpg",
+    "description": "قصة غامضة تكشف حقائق غير متوقعة",
+    "category": "غموض",
+    "duration": "45 دقيقة",
+    "type": "series",
+    "episodes": 18,
+    "rating": 4.3
+  },
+  {
+    "title": "كواليس",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/126758.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_002bbaee660d46fced677f8ba7b10648e9371d5a739d16e211bc8571503c5b9f.jpg",
+    "description": "وراء كواليس عالم الفن والإعلام",
+    "category": "دراما",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.0
+  },
+  {
+    "title": "حجم الحاج",
+    "year": "2023",
+    "videoUrl": "https://example.com/series10.mp4",
+    "imageAsset": "assets/Image_movies/_315x420_0b3ae6ae11adab938851933983754ea51dcd28ed7c012670628c4d39f87ada6c.jpg",
+    "description": "قصة إنسانية عن رحلة الحج",
+    "category": "دراما",
+    "duration": "60 دقيقة",
+    "type": "series",
+    "episodes": 10,
+    "rating": 4.8
+  },
+  {
+    "title": "المعامة",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/175699.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_0e3b2045260da502760436b03fad9ec23bdbd5f500fbc43d5fcd1eaa75c8bb16.jpg",
+    "description": "صراعات عائلية حول الميراث",
+    "category": "دراما",
+    "duration": "45 دقيقة",
+    "type": "series",
+    "episodes": 28,
+    "rating": 4.2
+  },
+  {
+    "title": "كالت",
+    "year": "2023",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "قصة شاب في عالم الأعمال",
+    "category": "دراما",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 20,
+    "rating": 4.1
+  },
+  {
+    "title": "كلية",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/569640.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_af58f42120e7abb35da00f97f9f1569da9526d275e663fd38988c0c09cfa6bf8.jpg",
+    "description": "حياة طلاب الجامعة وتحدياتهم",
+    "category": "دراما",
+    "duration": "35 دقيقة",
+    "type": "series",
+    "episodes": 30,
+    "rating": 4.5
+  },
+  {
+    "title": "اشغال شقه جدا",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/894159.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "كوميديا عن تجديد شقة",
+    "category": "كوميديا",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 20,
+    "rating": 4.3
+  },
 
-class MoviesArabicPage extends StatefulWidget {
-  @override
-  _MoviesArabicPageState createState() => _MoviesArabicPageState();
-}
+  {
+    "title": "منتهي الصلاحية",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "دراما اجتماعية",
+    "category": "دراما",
+    "duration": "50 دقيقة",
+    "type": "series",
+    "episodes": 18,
+    "rating": 4.2
+  },
+  {
+    "title": "تمانين باكو",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "قصة شاب في الثمانينيات",
+    "category": "دراما",
+    "duration": "55 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.6
+  },
+  {
+    "title": "بالدم",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "دراما بوليسية",
+    "category": "تشويق",
+    "duration": "45 دقيقة",
+    "type": "series",
+    "episodes": 15,
+    "rating": 4.7
+  },
+  {
+    "title": "تحت سابع ارض",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "قصة غامضة تحت الأرض",
+    "category": "غموض",
+    "duration": "50 دقيقة",
+    "type": "series",
+    "episodes": 20,
+    "rating": 4.5
+  },
+  {
+    "title": "نفس",
+    "year": "2024",
+    "videoUrl": "https://example.com/series20.mp4",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "دراما نفسية",
+    "category": "دراما",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 12,
+    "rating": 4.3
+  },
+  {
+    "title": "نص الشعب اسمة محمد",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_702c8935a9a5a4eb6966807bd3f0ba6ab18449fdfd5090ac8ff4e0a52b5f4473.jpg",
+    "description": "كوميديا اجتماعية",
+    "category": "كوميديا",
+    "duration": "35 دقيقة",
+    "type": "series",
+    "episodes": 30,
+    "rating": 4.4
+  },
 
-class _MoviesArabicPageState extends State<MoviesArabicPage> {
-  List<Movie> movies = [];
-  bool isLoading = true;
-  List<Movie> filteredMovies = [];
-  bool _showSearchBar = false;
-  final TextEditingController _searchController = TextEditingController();
-
-  Timer? _refreshTimer; // للتحديث التلقائي
-
-  // الألوان المستخدمة
-  final Color _backgroundColor = const Color(0xFF040C1A);
-  final Color _appBarColor = const Color(0xFF081830);
-  final Color _accentColor = const Color(0xFFFDD835);
-
-  @override
-  void initState() {
-    super.initState();
-    _initializeApp();
-    _startAutoRefresh(); // بدء التحديث التلقائي
+  {
+    "title": "شهاده معملة اطفال",
+    "year": "2024",
+    "videoUrl": "https://example.com/series23.mp4",
+    "imageAsset": "assets/Image_movies/_315x420_a475389149d56f858204272db2348b32f13986c6f6fde6a5fa2ff754b8c9e5bd.jpg",
+    "description": "دراما طبية",
+    "category": "دراما",
+    "duration": "50 دقيقة",
+    "type": "series",
+    "episodes": 18,
+    "rating": 4.2
+  },
+  {
+    "title": "الشرنقة",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_01936b4f17e7b8670199ae69f2223ea9a290102ea2635192babff737faf105f6.jpg",
+    "description": "دراما نفسية",
+    "category": "دراما",
+    "duration": "45 دقيقة",
+    "type": "series",
+    "episodes": 16,
+    "rating": 4.4
+  },
+  {
+    "title": "إش إش",
+    "year": "2024",
+    "videoUrl": "https://example.com/series25.mp4",
+    "imageAsset": "assets/Image_movies/_315x420_40e860767c75c69696fb1f247114b786dc0e0dccadd99ec7df05ecca3e1810ee.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
+  },
+  {
+    "title": "ولاد الشمس",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/782622.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_10e9f7b7d74d1c449221acd9a0d5d6e17b57223a730e3f6513f1f1e0b1d1cf6b.jpg",
+    "description": "دراما عائلية",
+    "category": "دراما",
+    "duration": "55 دقيقة",
+    "type": "series",
+    "episodes": 20,
+    "rating": 4.5
+  },
+  {
+    "title": "إش إش",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_002bbaee660d46fced677f8ba7b10648e9371d5a739d16e211bc8571503c5b9f.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
+  },
+  {
+    "title": "إش إش",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_002bbaee660d46fced677f8ba7b10648e9371d5a739d16e211bc8571503c5b9f.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
+  },
+  {
+    "title": "إش إش",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_002bbaee660d46fced677f8ba7b10648e9371d5a739d16e211bc8571503c5b9f.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
+  },
+  {
+    "title": "kino",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_10e9f7b7d74d1c449221acd9a0d5d6e17b57223a730e3f6513f1f1e0b1d1cf6b.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
+  },
+  {
+    "title": "kino",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_10e9f7b7d74d1c449221acd9a0d5d6e17b57223a730e3f6513f1f1e0b1d1cf6b.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
+  },
+  {
+    "title": "kino",
+    "year": "2024",
+    "videoUrl": "https://es.egys.gs/movie/abdoyasser112/01032783778/196900.m3u8",
+    "imageAsset": "assets/Image_movies/_315x420_10e9f7b7d74d1c449221acd9a0d5d6e17b57223a730e3f6513f1f1e0b1d1cf6b.jpg",
+    "description": "تشويق وإثارة",
+    "category": "تشويق",
+    "duration": "40 دقيقة",
+    "type": "series",
+    "episodes": 22,
+    "rating": 4.7
   }
-
-  @override
-  void dispose() {
-    _refreshTimer?.cancel(); // إيقاف التحديث التلقائي
-    _searchController.dispose();
-    super.dispose();
-  }
-
-  // بدء التحديث التلقائي كل 10 دقائق
-  void _startAutoRefresh() {
-    _refreshTimer = Timer.periodic(Duration(minutes: 10), (timer) {
-      if (!_showSearchBar && mounted) {
-        print("Auto-refreshing movies list in MoviesArabicPage...");
-        loadMovies(showMessages: false);
-      }
-    });
-  }
-
-  // تهيئة الصفحة
-  Future<void> _initializeApp() async {
-    await loadMovies(showMessages: false);
-    // checkForUpdates(); // يمكنك تفعيله إذا أردت التحقق عند فتح الصفحة
-  }
-
-  // التحقق من تحديثات التطبيق (اختياري)
-  Future<void> checkForUpdates() async {
-    try {
-      final packageInfo = await PackageInfo.fromPlatform();
-      final currentVersion = packageInfo.version;
-      final response = await http.get(Uri.parse('https://cdn.jsdelivr.net/gh/vikasramakrishnan/movies/movies.json'));
-      if (response.statusCode == 200) {
-        final data = json.decode(response.body);
-        final latestVersion = data['version'];
-        if (latestVersion != currentVersion) {
-           print("Update available: $latestVersion");
-           // يمكنك إظهار النافذة هنا
-        } else { print("App is up to date."); }
-      }
-    } catch (e) { print('Error checking app updates: $e'); }
-  }
-
-  // --- فتح مشغل الفيديو وتحديث SharedPreferences ---
-  Future<void> _openVideoPlayer(Movie movie) async {
-    // 1. قراءة نقطة التوقف المحفوظة
-    final prefs = await SharedPreferences.getInstance();
-    Duration startAt = Duration.zero;
-    if (movie.id != null) {
-       final int? savedPositionMillis = prefs.getInt('playback_position_${movie.id}');
-       if (savedPositionMillis != null) {
-         startAt = Duration(milliseconds: savedPositionMillis);
-       }
-    }
-
-    // 2. الانتقال للمشغل وانتظار النتيجة
-    final result = await Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => VideoPlayerFullScreen(
-            movie: movie,
-            videoUrl: movie.videoUrl??'',
-            title: movie.title,
-            startAt: startAt,
-            ),
-      ),
-    );
-
-    // 3. تحديث SharedPreferences بناءً على النتيجة
-    if (!mounted || movie.id == null) return;
-
-    if (result is Duration) {
-      await _updateWatchHistoryInPrefs(movie, result);
-    } else if (result == true) {
-        // إذا رجع بـ true، نحفظ آخر نقطة توقف كانت موجودة (startAt)
-        await _updateWatchHistoryInPrefs(movie, startAt);
-    }
-    
-    // ⭐️ ✅ إرجاع إشارة للـ HomePage لتحديث قائمة 'مشاهداتك'
-    if (result != null) {
-      Navigator.pop(context, true); 
-    }
-  }
-
-  // دالة لتحديث قائمة "مشاهداتك" ونقطة التوقف في SharedPreferences
-  Future<void> _updateWatchHistoryInPrefs(Movie movie, Duration lastPosition) async {
-      if (movie.id == null) return;
-
-      final prefs = await SharedPreferences.getInstance();
-      List<Movie> currentList = [];
-      final List<String>? savedListJson = prefs.getStringList('continue_watching_list');
-      if (savedListJson != null) {
-        try { currentList = savedListJson.map((s) => Movie.fromJson(json.decode(s))).toList(); } catch (e) { print("Error decoding saved list: $e"); }
-      }
-
-      currentList.removeWhere((m) => m.id == movie.id);
-      currentList.insert(0, movie);
-
-      // حفظ القائمة
-      try {
-         final List<String> listToSaveJson = currentList.map((m) => json.encode(m.toJson())).toList();
-         await prefs.setStringList('continue_watching_list', listToSaveJson);
-      } catch (e) {
-         print("Error encoding movie list for SharedPreferences: $e");
-      }
-
-      // حفظ نقطة التوقف
-      await prefs.setInt('playback_position_${movie.id}', lastPosition.inMilliseconds);
-      print("Updated SharedPreferences from MoviesArabicPage for ID: ${movie.id}");
-  }
-  // --- نهاية تعديل المشغل والتحديث ---
-
-  // تحميل قائمة الأفلام
-  Future<void> loadMovies({bool showMessages = true}) async {
-    bool initialLoad = movies.isEmpty;
-    if (initialLoad && mounted) {
-      setState(() => isLoading = true);
-    } else if (mounted) {
-      print("Refreshing movies list...");
-    }
-
-    try {
-      final loadedMovies = await ApiService.getMovies();
-      if (mounted) {
-        setState(() {
-          movies = loadedMovies;
-          if (!_showSearchBar) { filteredMovies = movies; } else { _searchMovies(_searchController.text); }
-          isLoading = false;
-        });
-        if (showMessages) {
-          ScaffoldMessenger.of(context).showSnackBar( SnackBar( content: Text('تم تحديث القائمة بنجاح!'), backgroundColor: Colors.green, duration: Duration(seconds: 2), ), );
-        }
-      }
-    } catch (e) {
-      print('[MoviesArabicPage] Error loading movies: $e');
-      if (mounted) {
-        setState(() => isLoading = false);
-        if (showMessages) {
-           ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text('فشل تحميل التحديث. تحقق من الاتصال.'), backgroundColor: Colors.red, duration: Duration(seconds: 3)), );
-        }
-      }
-    }
-  }
-
-  // فلترة الأفلام
-  void _searchMovies(String query) {
-    if (!mounted) return;
-    if (query.isEmpty) {
-      setState(() => filteredMovies = movies);
-      return;
-    }
-    Future.microtask(() {
-      final lowerQuery = query.toLowerCase();
-      final results = movies.where((movie) {
-        return movie.title.toLowerCase().contains(lowerQuery) ||
-               movie.description.toLowerCase().contains(lowerQuery) ||
-               movie.category.toLowerCase().contains(lowerQuery);
-      }).toList();
-      if (mounted) setState(() => filteredMovies = results);
-    });
-  }
-
-  // تبديل شريط البحث
-  void _toggleSearchBar() {
-    if (!mounted) return;
-    setState(() {
-      _showSearchBar = !_showSearchBar;
-      if (!_showSearchBar) {
-        _searchController.clear();
-        filteredMovies = movies;
-      }
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: _backgroundColor,
-      appBar: _buildMainAppBar(),
-      body: _buildBody(),
-    );
-  }
-
-  AppBar _buildMainAppBar() {
-    return AppBar(
-      leading: _showSearchBar
-          ? IconButton( icon: Icon(Icons.arrow_back, color: Colors.white), onPressed: _toggleSearchBar, tooltip: 'إغلاق البحث', )
-          : IconButton( icon: Icon(Icons.refresh, color: Colors.white), onPressed: () => loadMovies(showMessages: true), tooltip: 'تحديث', ),
-      title: _showSearchBar
-          ? _buildSearchField()
-          : Text('أفلام عربية', style: TextStyle( color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18, )),
-      backgroundColor: _appBarColor,
-      elevation: 0,
-      centerTitle: true,
-      actions: _showSearchBar
-          ? [ IconButton( icon: Icon(Icons.clear, color: Colors.white), tooltip: 'مسح البحث', onPressed: () { if (_searchController.text.isNotEmpty) { _searchController.clear(); _searchMovies(''); } }, ), ]
-          : [
-              IconButton( icon: Icon(Icons.search, color: Colors.white), onPressed: _toggleSearchBar, tooltip: 'بحث', ),
-            ],
-    );
-  }
-
-  // بناء حقل البحث
-  Widget _buildSearchField() {
-    return Container(
-      height: 40,
-      decoration: BoxDecoration( color: Colors.white.withOpacity(0.1), borderRadius: BorderRadius.circular(20), ),
-      child: TextField( controller: _searchController, onChanged: _searchMovies, style: TextStyle(color: Colors.white, fontSize: 16), decoration: InputDecoration( hintText: 'ابحث في الأفلام...', hintStyle: TextStyle(color: Colors.white54), border: InputBorder.none, prefixIcon: Icon(Icons.search, color: Colors.white54, size: 20), contentPadding: EdgeInsets.symmetric( vertical: 11.5), ), cursorColor: Colors.white, autofocus: true, ),
-    );
-  }
-
-  // بناء محتوى الصفحة
-  Widget _buildBody() {
-    if (isLoading) return _buildLoadingIndicator();
-    if (movies.isEmpty && !_showSearchBar) return _buildEmptyState();
-    if (filteredMovies.isEmpty && _showSearchBar) return _buildNoResults();
-    return _buildMoviesGrid();
-  }
-
-  // --- Widgets مساعدة ---
-  Widget _buildLoadingIndicator() { return Center( child: Column( mainAxisAlignment: MainAxisAlignment.center, children: [ CircularProgressIndicator(color: _accentColor), SizedBox(height: 16), Text('جاري تحميل الأفلام...', style: TextStyle(fontSize: 16, color: Colors.grey)), ], ), ); }
-  Widget _buildNoResults() { return Center( child: Text( 'لا توجد نتائج تطابق بحثك', style: TextStyle(fontSize: 18, color: Colors.grey), ), ); }
-  Widget _buildEmptyState() { return LayoutBuilder( builder: (context, constraints) { return RefreshIndicator( onRefresh: () => loadMovies(showMessages: true), backgroundColor: _appBarColor, color: _accentColor, child: SingleChildScrollView( physics: AlwaysScrollableScrollPhysics(), child: ConstrainedBox( constraints: BoxConstraints(minHeight: constraints.maxHeight), child: Center( child: Column( mainAxisAlignment: MainAxisAlignment.center, children: [ Icon(Icons.mobile_off_outlined, size: 64, color: Colors.grey), SizedBox(height: 16), Text('لا توجد أفلام متاحة حالياً', style: TextStyle(fontSize: 18, color: Colors.grey)), SizedBox(height: 8), Text('اسحب للأسفل أو اضغط زر التحديث', style: TextStyle(fontSize: 14, color: Colors.grey[600])), ], ), ), ), ), ); }, ); }
-
-  // بناء شبكة العرض مع RefreshIndicator
-  Widget _buildMoviesGrid() {
-    return OrientationBuilder(
-      builder: (context, orientation) {
-        final crossAxisCount = orientation == Orientation.portrait ? 3 : 5;
-        final childAspectRatio = orientation == Orientation.portrait ? 0.65 : 0.75;
-        return RefreshIndicator(
-          onRefresh: () => loadMovies(showMessages: true),
-          backgroundColor: _appBarColor,
-          color: _accentColor,
-          child: GridView.builder(
-            physics: const AlwaysScrollableScrollPhysics(), // لتمكين السحب دائماً
-            padding: EdgeInsets.all(8),
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount( crossAxisCount: crossAxisCount, crossAxisSpacing: 5, mainAxisSpacing: 5, childAspectRatio: childAspectRatio,),
-            itemCount: filteredMovies.length,
-            itemBuilder: (context, index) {
-              return _buildMovieCard(filteredMovies[index]);
-            },
-          ),
-        );
-      },
-    );
-  }
-
-  // بناء كرت الفيلم (مع إزالة الحواف ودعم Assets)
-  Widget _buildMovieCard(Movie movie) {
-    return GestureDetector(
-      onTap: () => _openVideoPlayer(movie),
-      child: Container(
-        margin: EdgeInsets.all(2),
-        // ❌ إزالة الحواف الدائرية من الكارد الخارجي
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Expanded(
-              child: ClipRRect(
-                // ❌ إزالة الحواف الدائرية من الصورة
-                borderRadius: BorderRadius.zero,
-                child: Stack(
-                  fit: StackFit.expand,
-                  children: [
-                    // ✅ استخدام منطق عرض الصورة (Asset أو Network)
-                    movie.isLocalImage
-                        ? Image.asset( movie.imageAsset, fit: BoxFit.cover, errorBuilder: (c, e, s) => _buildPlaceholder(), )
-                        : CachedNetworkImage( imageUrl: movie.displayImage, fit: BoxFit.cover, placeholder: (context, url) => _buildLoadingPlaceholder(), errorWidget: (context, url, error) => _buildPlaceholder(), ),
-
-                    // عرض التقييم إذا كان موجوداً
-                    if (movie.rating != null && movie.rating! > 0)
-                      Positioned( top: 4, left: 4, child: Container( padding: EdgeInsets.symmetric( horizontal: 5, vertical: 2), decoration: BoxDecoration( color: Colors.black.withOpacity(0.8), borderRadius: BorderRadius.circular(4), ), child: Row( mainAxisSize: MainAxisSize.min, children: [ Icon(Icons.star, color: Colors.amber, size: 12), SizedBox(width: 2), Text( movie.rating!.toStringAsFixed(1), style: TextStyle( color: Colors.white, fontSize: 10, fontWeight: FontWeight.bold, ), ), ], ), ), ),
-                  ],
-                ),
-              ),
-            ),
-            Container(
-              height: 35,
-              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-              // ❌ إزالة الحواف الدائرية من شريط العنوان
-              decoration: BoxDecoration( color: Colors.black, borderRadius: BorderRadius.zero, ),
-              child: Center( child: Text( movie.title, style: TextStyle( color: Colors.white, fontSize: 11, fontWeight: FontWeight.w500, height: 1.2,), maxLines: 2, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center,),),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildLoadingPlaceholder() { return Container( color: Colors.black.withOpacity(0.2), child: Center( child: CircularProgressIndicator( color: _accentColor.withOpacity(0.5), strokeWidth: 2,),),); }
-  Widget _buildPlaceholder() { return Container( color: Colors.black.withOpacity(0.2), child: Center( child: Icon(Icons.broken_image_outlined, color: Colors.white24, size: 40)),); }
-
-} // نهاية الـ State
+]
