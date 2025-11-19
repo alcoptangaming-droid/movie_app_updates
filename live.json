@@ -1,0 +1,330 @@
+import 'dart:async';
+import 'dart:convert'; // ⭐️ استيراد لتحويل JSON
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:movie_app/video_player/video_player_screen.dart'; // تأكد من المسار
+import 'package:movie_app/api/apiservice.dart';           // تأكد من المسار
+import 'package:movie_app/model/movie_model.dart';         // تأكد من المسار
+import 'package:package_info_plus/package_info_plus.dart';
+import 'package:shared_preferences/shared_preferences.dart'; // ⭐️ استيراد SharedPreferences
+// ignore: unused_import
+import 'package:url_launcher/url_launcher.dart'; // قد تحتاجه لنافذة التحديث
+
+class MoviesArabicPage extends StatefulWidget {
+  @override
+  _MoviesArabicPageState createState() => _MoviesArabicPageState();
+}
+
+class _MoviesArabicPageState extends State<MoviesArabicPage> {
+  List<Movie> movies = [];
+  bool isLoading = true;
+  List<Movie> filteredMovies = [];
+  bool _showSearchBar = false;
+  final TextEditingController _searchController = TextEditingController();
+
+  Timer? _refreshTimer; // للتحديث التلقائي
+
+  // الألوان المستخدمة
+  final Color _backgroundColor = const Color(0xFF040C1A);
+  final Color _appBarColor = const Color(0xFF081830);
+  final Color _accentColor = const Color(0xFFFDD835);
+
+  @override
+  void initState() {
+    super.initState();
+    _initializeApp();
+    _startAutoRefresh(); // بدء التحديث التلقائي
+  }
+
+  @override
+  void dispose() {
+    _refreshTimer?.cancel(); // إيقاف التحديث التلقائي
+    _searchController.dispose();
+    super.dispose();
+  }
+
+  // بدء التحديث التلقائي كل 10 دقائق
+  void _startAutoRefresh() {
+    _refreshTimer = Timer.periodic(Duration(minutes: 10), (timer) {
+      if (!_showSearchBar && mounted) {
+        print("Auto-refreshing movies list in MoviesArabicPage...");
+        loadMovies(showMessages: false);
+      }
+    });
+  }
+
+  // تهيئة الصفحة
+  Future<void> _initializeApp() async {
+    await loadMovies(showMessages: false);
+    // checkForUpdates(); // يمكنك تفعيله إذا أردت التحقق عند فتح الصفحة
+  }
+
+  // التحقق من تحديثات التطبيق (اختياري)
+  Future<void> checkForUpdates() async {
+    try {
+      final packageInfo = await PackageInfo.fromPlatform();
+      final currentVersion = packageInfo.version;
+      final response = await http.get(Uri.parse('https://cdn.jsdelivr.net/gh/vikasramakrishnan/movies/movies.json'));
+      if (response.statusCode == 200) {
+        final data = json.decode(response.body);
+        final latestVersion = data['version'];
+        if (latestVersion != currentVersion) {
+           print("Update available: $latestVersion");
+           // يمكنك إظهار النافذة هنا
+        } else { print("App is up to date."); }
+      }
+    } catch (e) { print('Error checking app updates: $e'); }
+  }
+
+  // --- فتح مشغل الفيديو وتحديث SharedPreferences ---
+  Future<void> _openVideoPlayer(Movie movie) async {
+    // 1. قراءة نقطة التوقف المحفوظة
+    final prefs = await SharedPreferences.getInstance();
+    Duration startAt = Duration.zero;
+    if (movie.id != null) {
+       final int? savedPositionMillis = prefs.getInt('playback_position_${movie.id}');
+       if (savedPositionMillis != null) {
+         startAt = Duration(milliseconds: savedPositionMillis);
+       }
+    }
+
+    // 2. الانتقال للمشغل وانتظار النتيجة
+    final result = await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => VideoPlayerFullScreen(
+            movie: movie,
+            videoUrl: movie.videoUrl??'',
+            title: movie.title,
+            startAt: startAt,
+            ),
+      ),
+    );
+
+    // 3. تحديث SharedPreferences بناءً على النتيجة
+    if (!mounted || movie.id == null) return;
+
+    if (result is Duration) {
+      await _updateWatchHistoryInPrefs(movie, result);
+    } else if (result == true) {
+        // إذا رجع بـ true، نحفظ آخر نقطة توقف كانت موجودة (startAt)
+        await _updateWatchHistoryInPrefs(movie, startAt);
+    }
+    
+    // ⭐️ ✅ إرجاع إشارة للـ HomePage لتحديث قائمة 'مشاهداتك'
+    if (result != null) {
+      Navigator.pop(context, true); 
+    }
+  }
+
+  // دالة لتحديث قائمة "مشاهداتك" ونقطة التوقف في SharedPreferences
+  Future<void> _updateWatchHistoryInPrefs(Movie movie, Duration lastPosition) async {
+      if (movie.id == null) return;
+
+      final prefs = await SharedPreferences.getInstance();
+      List<Movie> currentList = [];
+      final List<String>? savedListJson = prefs.getStringList('continue_watching_list');
+      if (savedListJson != null) {
+        try { currentList = savedListJson.map((s) => Movie.fromJson(json.decode(s))).toList(); } catch (e) { print("Error decoding saved list: $e"); }
+      }
+
+      currentList.removeWhere((m) => m.id == movie.id);
+      currentList.insert(0, movie);
+
+      // حفظ القائمة
+      try {
+         final List<String> listToSaveJson = currentList.map((m) => json.encode(m.toJson())).toList();
+         await prefs.setStringList('continue_watching_list', listToSaveJson);
+      } catch (e) {
+         print("Error encoding movie list for SharedPreferences: $e");
+      }
+
+      // حفظ نقطة التوقف
+      await prefs.setInt('playback_position_${movie.id}', lastPosition.inMilliseconds);
+      print("Updated SharedPreferences from MoviesArabicPage for ID: ${movie.id}");
+  }
+  // --- نهاية تعديل المشغل والتحديث ---
+
+  // تحميل قائمة الأفلام
+  Future<void> loadMovies({bool showMessages = true}) async {
+    bool initialLoad = movies.isEmpty;
+    if (initialLoad && mounted) {
+      setState(() => isLoading = true);
+    } else if (mounted) {
+      print("Refreshing movies list...");
+    }
+
+    try {
+      final loadedMovies = await ApiService.getMovies();
+      if (mounted) {
+        setState(() {
+          movies = loadedMovies;
+          if (!_showSearchBar) { filteredMovies = movies; } else { _searchMovies(_searchController.text); }
+          isLoading = false;
+        });
+        if (showMessages) {
+          ScaffoldMessenger.of(context).showSnackBar( SnackBar( content: Text('تم تحديث القائمة بنجاح!'), backgroundColor: Colors.green, duration: Duration(seconds: 2), ), );
+        }
+      }
+    } catch (e) {
+      print('[MoviesArabicPage] Error loading movies: $e');
+      if (mounted) {
+        setState(() => isLoading = false);
+        if (showMessages) {
+           ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text('فشل تحميل التحديث. تحقق من الاتصال.'), backgroundColor: Colors.red, duration: Duration(seconds: 3)), );
+        }
+      }
+    }
+  }
+
+  // فلترة الأفلام
+  void _searchMovies(String query) {
+    if (!mounted) return;
+    if (query.isEmpty) {
+      setState(() => filteredMovies = movies);
+      return;
+    }
+    Future.microtask(() {
+      final lowerQuery = query.toLowerCase();
+      final results = movies.where((movie) {
+        return movie.title.toLowerCase().contains(lowerQuery) ||
+               movie.description.toLowerCase().contains(lowerQuery) ||
+               movie.category.toLowerCase().contains(lowerQuery);
+      }).toList();
+      if (mounted) setState(() => filteredMovies = results);
+    });
+  }
+
+  // تبديل شريط البحث
+  void _toggleSearchBar() {
+    if (!mounted) return;
+    setState(() {
+      _showSearchBar = !_showSearchBar;
+      if (!_showSearchBar) {
+        _searchController.clear();
+        filteredMovies = movies;
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: _backgroundColor,
+      appBar: _buildMainAppBar(),
+      body: _buildBody(),
+    );
+  }
+
+  AppBar _buildMainAppBar() {
+    return AppBar(
+      leading: _showSearchBar
+          ? IconButton( icon: Icon(Icons.arrow_back, color: Colors.white), onPressed: _toggleSearchBar, tooltip: 'إغلاق البحث', )
+          : IconButton( icon: Icon(Icons.refresh, color: Colors.white), onPressed: () => loadMovies(showMessages: true), tooltip: 'تحديث', ),
+      title: _showSearchBar
+          ? _buildSearchField()
+          : Text('أفلام عربية', style: TextStyle( color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18, )),
+      backgroundColor: _appBarColor,
+      elevation: 0,
+      centerTitle: true,
+      actions: _showSearchBar
+          ? [ IconButton( icon: Icon(Icons.clear, color: Colors.white), tooltip: 'مسح البحث', onPressed: () { if (_searchController.text.isNotEmpty) { _searchController.clear(); _searchMovies(''); } }, ), ]
+          : [
+              IconButton( icon: Icon(Icons.search, color: Colors.white), onPressed: _toggleSearchBar, tooltip: 'بحث', ),
+            ],
+    );
+  }
+
+  // بناء حقل البحث
+  Widget _buildSearchField() {
+    return Container(
+      height: 40,
+      decoration: BoxDecoration( color: Colors.white.withOpacity(0.1), borderRadius: BorderRadius.circular(20), ),
+      child: TextField( controller: _searchController, onChanged: _searchMovies, style: TextStyle(color: Colors.white, fontSize: 16), decoration: InputDecoration( hintText: 'ابحث في الأفلام...', hintStyle: TextStyle(color: Colors.white54), border: InputBorder.none, prefixIcon: Icon(Icons.search, color: Colors.white54, size: 20), contentPadding: EdgeInsets.symmetric( vertical: 11.5), ), cursorColor: Colors.white, autofocus: true, ),
+    );
+  }
+
+  // بناء محتوى الصفحة
+  Widget _buildBody() {
+    if (isLoading) return _buildLoadingIndicator();
+    if (movies.isEmpty && !_showSearchBar) return _buildEmptyState();
+    if (filteredMovies.isEmpty && _showSearchBar) return _buildNoResults();
+    return _buildMoviesGrid();
+  }
+
+  // --- Widgets مساعدة ---
+  Widget _buildLoadingIndicator() { return Center( child: Column( mainAxisAlignment: MainAxisAlignment.center, children: [ CircularProgressIndicator(color: _accentColor), SizedBox(height: 16), Text('جاري تحميل الأفلام...', style: TextStyle(fontSize: 16, color: Colors.grey)), ], ), ); }
+  Widget _buildNoResults() { return Center( child: Text( 'لا توجد نتائج تطابق بحثك', style: TextStyle(fontSize: 18, color: Colors.grey), ), ); }
+  Widget _buildEmptyState() { return LayoutBuilder( builder: (context, constraints) { return RefreshIndicator( onRefresh: () => loadMovies(showMessages: true), backgroundColor: _appBarColor, color: _accentColor, child: SingleChildScrollView( physics: AlwaysScrollableScrollPhysics(), child: ConstrainedBox( constraints: BoxConstraints(minHeight: constraints.maxHeight), child: Center( child: Column( mainAxisAlignment: MainAxisAlignment.center, children: [ Icon(Icons.mobile_off_outlined, size: 64, color: Colors.grey), SizedBox(height: 16), Text('لا توجد أفلام متاحة حالياً', style: TextStyle(fontSize: 18, color: Colors.grey)), SizedBox(height: 8), Text('اسحب للأسفل أو اضغط زر التحديث', style: TextStyle(fontSize: 14, color: Colors.grey[600])), ], ), ), ), ), ); }, ); }
+
+  // بناء شبكة العرض مع RefreshIndicator
+  Widget _buildMoviesGrid() {
+    return OrientationBuilder(
+      builder: (context, orientation) {
+        final crossAxisCount = orientation == Orientation.portrait ? 3 : 5;
+        final childAspectRatio = orientation == Orientation.portrait ? 0.65 : 0.75;
+        return RefreshIndicator(
+          onRefresh: () => loadMovies(showMessages: true),
+          backgroundColor: _appBarColor,
+          color: _accentColor,
+          child: GridView.builder(
+            physics: const AlwaysScrollableScrollPhysics(), // لتمكين السحب دائماً
+            padding: EdgeInsets.all(8),
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount( crossAxisCount: crossAxisCount, crossAxisSpacing: 5, mainAxisSpacing: 5, childAspectRatio: childAspectRatio,),
+            itemCount: filteredMovies.length,
+            itemBuilder: (context, index) {
+              return _buildMovieCard(filteredMovies[index]);
+            },
+          ),
+        );
+      },
+    );
+  }
+
+  // بناء كرت الفيلم (مع إزالة الحواف ودعم Assets)
+  Widget _buildMovieCard(Movie movie) {
+    return GestureDetector(
+      onTap: () => _openVideoPlayer(movie),
+      child: Container(
+        margin: EdgeInsets.all(2),
+        // ❌ إزالة الحواف الدائرية من الكارد الخارجي
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: ClipRRect(
+                // ❌ إزالة الحواف الدائرية من الصورة
+                borderRadius: BorderRadius.zero,
+                child: Stack(
+                  fit: StackFit.expand,
+                  children: [
+                    // ✅ استخدام منطق عرض الصورة (Asset أو Network)
+                    movie.isLocalImage
+                        ? Image.asset( movie.imageAsset, fit: BoxFit.cover, errorBuilder: (c, e, s) => _buildPlaceholder(), )
+                        : CachedNetworkImage( imageUrl: movie.displayImage, fit: BoxFit.cover, placeholder: (context, url) => _buildLoadingPlaceholder(), errorWidget: (context, url, error) => _buildPlaceholder(), ),
+
+                    // عرض التقييم إذا كان موجوداً
+                    if (movie.rating != null && movie.rating! > 0)
+                      Positioned( top: 4, left: 4, child: Container( padding: EdgeInsets.symmetric( horizontal: 5, vertical: 2), decoration: BoxDecoration( color: Colors.black.withOpacity(0.8), borderRadius: BorderRadius.circular(4), ), child: Row( mainAxisSize: MainAxisSize.min, children: [ Icon(Icons.star, color: Colors.amber, size: 12), SizedBox(width: 2), Text( movie.rating!.toStringAsFixed(1), style: TextStyle( color: Colors.white, fontSize: 10, fontWeight: FontWeight.bold, ), ), ], ), ), ),
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              height: 35,
+              padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+              // ❌ إزالة الحواف الدائرية من شريط العنوان
+              decoration: BoxDecoration( color: Colors.black, borderRadius: BorderRadius.zero, ),
+              child: Center( child: Text( movie.title, style: TextStyle( color: Colors.white, fontSize: 11, fontWeight: FontWeight.w500, height: 1.2,), maxLines: 2, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center,),),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildLoadingPlaceholder() { return Container( color: Colors.black.withOpacity(0.2), child: Center( child: CircularProgressIndicator( color: _accentColor.withOpacity(0.5), strokeWidth: 2,),),); }
+  Widget _buildPlaceholder() { return Container( color: Colors.black.withOpacity(0.2), child: Center( child: Icon(Icons.broken_image_outlined, color: Colors.white24, size: 40)),); }
+
+} // نهاية الـ State
