@@ -1,0 +1,52 @@
+name: qasioun_tv
+description: "A new Flutter project for Qasioun TV with Firebase Cloud support."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # مكتبات أيقونات Flutter الأساسية
+  cupertino_icons: ^1.0.6
+
+  # مكتبات Firebase الأساسية للربط بالسحابة
+  firebase_core: ^3.10.0
+  cloud_firestore: ^5.6.0
+
+  # مكتبة التخزين المحلي (للحفاظ على جلسة المستخدم الحالية فقط)
+  shared_preferences: ^2.3.5
+  
+  # مكتبة لمعرفة معلومات الإصدار
+  package_info_plus: ^8.3.0
+  
+  # مكتبة WebView
+  flutter_inappwebview: ^6.0.0
+  
+  # مكتبات تشغيل الفيديو والصور والروابط المستخدمة في تطبيقك
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.1
+  video_player: ^2.9.2
+  chewie: ^1.8.5 # إذا كنت تستخدمه في مشغل الفيديو الخاص بك
+
+  # مكتبات مساعدة لإدارة الحالة والبيانات
+  intl: ^0.19.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # تأكد من تعريف الصور والأصول الخاصة بتطبيقك هنا
+  assets:
+    - assets/
+    - assets/Image_live/
+    - assets/app/
