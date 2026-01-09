@@ -1,9 +1,0 @@
-{
-  "version": "1.0.2", 
-  "update_url": "https://github.com/alcoptangaming-droid/movie_app_updates/releases/download/v1.0.2/app-release.apk",
-  "changelog": "إصلاحات وتحسينات جديدة.",
-  "build_number": "3",
-  "mandatory": false,
-  "release_date": "2025-10-25",
-  "update_message": "🎉 تحديث هام: تم إضافة مميزات جديدة وتحسين الأداء وثبات التطبيق."
-}
